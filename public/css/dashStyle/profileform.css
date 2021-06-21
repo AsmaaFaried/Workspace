@@ -1,0 +1,107 @@
+body{
+  color: #212b36;
+  font-weight: bold;
+  background: linear-gradient(to right, #8383aa, #1e3148);
+}
+div.polaroid {
+  width: 80%;
+  /* background-color: white; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card{
+  border-radius: 8px;
+  background-color: rgb(233 233 233);
+}
+.-moz-placeholder{
+  color: #212b36;
+}
+.form-control{
+  color: #000;
+  border: 2px solid #212b36;
+}
+
+div.containerr {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.profilePic{
+  position: absolute;
+  left: 50%;
+  max-width: 200px;
+}
+/* Here */
+.inline-row{
+  display:inline-flex;
+}
+/* .price{
+  border: 2px solid #000;
+  border-radius: 20px;
+  max-height: 45px;
+} */
+#room_price ,#room_price_time{
+  max-width: 130px;
+  margin: 5px;
+}
+/* #room_image{
+  margin-top: -222px;
+  margin-left: 45px;
+  cursor: pointer;
+  max-width: 165px;
+} */
+
+
+/* End */
+.insert-img{
+  max-width: 200px;
+  margin-block-start: auto;
+  margin-top: 10px;
+  display: none;
+  visibility: none;
+}
+#plus-icon {
+  position: relative;
+  left:12%;
+}
+#photo-header{
+  position: absolute;
+  top: 7%;
+  left:40%;
+}
+.fa-plus{
+  font-size: 24px;
+  border: 3px solid #0d3d5d;
+  padding: 65px;
+  cursor: pointer;
+}
+.imgg{
+  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.btn-primary{
+  font-weight: bold;
+  color: #212b36;
+  border: 2px solid #212b36;
+}
+.btn-primary:hover {
+  color: #212b36;
+  background-color: #2979b9be;
+  border-color: #2979b9be;
+}
+option{
+  margin:40px;
+  background: rgba(0,0,0,0.3);
+  color:rgb(0, 0, 0);
+  text-shadow:0 1px 0 rgba(0,0,0,0.4);
+}
+#tag_time {
+  cursor: pointer;
+}
+
+.form-control:focus {
+ 
+    border-color: #26ce34;
+    
+}
+
+
